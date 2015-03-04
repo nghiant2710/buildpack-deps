@@ -1,4 +1,4 @@
-FROM resin/rpi-buildpack-deps:wheezy-scm
+FROM resin/armv7hf-buildpack-deps:wheezy-scm
 
 RUN apt-get update && apt-get install -y \
 		autoconf \

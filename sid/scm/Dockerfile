@@ -1,4 +1,4 @@
-FROM resin/armv7hf-buildpack-deps:jessie-curl
+FROM resin/armv7hf-buildpack-deps:sid-curl
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
 		bzr \

@@ -1,4 +1,4 @@
-FROM resin/armv7hf-buildpack-deps:jessie-scm
+FROM resin/armv7hf-buildpack-deps:sid-scm
 
 RUN apt-get update && apt-get install -y \
 		autoconf \
